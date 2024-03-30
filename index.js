@@ -23,19 +23,19 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1154459332914720878')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setState('Playing NGRP AS:Duggles_D_Xebec')
+    .setName('KIDNEY 🍒')
+    .setDetails(`KidneY [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://media.discordapp.net/external/g0dRFUr3eL4xv76GNWWUjAT9c2MEkXWtxGkumpjbHeU/https/i.pinimg.com/originals/19/f7/e8/19f7e88ecdf3ead830ee96a82e3de21a.gif') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Team MGC') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/external/eK_s96YiVIfvG14xk6TFz4ZQWuVTRi0M_I7oPZhpoto/https/emoji.discadia.com/emojis/798267a5-3e6c-4168-a56c-9fc4be65aad3.gif') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('Hypton') //Text when you hover the Small image
+    .addButton('JOIN NGRP', 'https://discord.gg/ngrp-kerala-official-776666577546117151')
+    .addButton('CHROME', 'https://google.com');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` [${newTime}]`;
+      const newDetails = `KidneY 💉 [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
