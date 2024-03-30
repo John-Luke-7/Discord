@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState('Playing NGRP AS : Duggles_D_Xebec')
     .setName('In The Moon')
-    .setDetails(`KidneY`)
+    .setDetails(`KidneY [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/external/g0dRFUr3eL4xv76GNWWUjAT9c2MEkXWtxGkumpjbHeU/https/i.pinimg.com/originals/19/f7/e8/19f7e88ecdf3ead830ee96a82e3de21a.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Team MGC') //Text when you hover the Large image
