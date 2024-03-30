@@ -26,7 +26,7 @@ client.on('ready', async () => {
     .setApplicationId('1154459332914720878')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Playing NGRP AS:Duggles_D_Xebec')
+    .setState('Playing NGRP AS : Duggles_D_Xebec')
     .setName('In The Moon')
     .setDetails(`KidneY`)
     .setStartTimestamp(Date.now())
