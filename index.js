@@ -26,7 +26,7 @@ client.on('ready', async () => {
     .setApplicationId('1154459332914720878')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Playing NGRP AS : Duggles_D_Xebec')
+    .setState('Playing AS : Duggles_D_Xebec')
     .setName('In The Moon')
     .setDetails(`Blood Bleeding , Kidney 🍒[${formatTime()}]`)
     .setStartTimestamp(Date.now())
@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('Team MGC') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/external/eK_s96YiVIfvG14xk6TFz4ZQWuVTRi0M_I7oPZhpoto/https/emoji.discadia.com/emojis/798267a5-3e6c-4168-a56c-9fc4be65aad3.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Hypton') //Text when you hover the Small image
-    .addButton('JOIN NGRP', 'https://discord.gg/ngrp-kerala-official-776666577546117151')
+    .addButton('JOIN KMRP', 'https://dsc.gg/kurukkanmoola')
     .addButton('CHROME', 'https://google.com');
 
   client.user.setActivity(r);
