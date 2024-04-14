@@ -15,10 +15,10 @@ client.on('ready', async () => {
     .setApplicationId('1154459332914720878')
     .setType('PLAYING')
     .setURL('https://twitch.tv/discord')
-    .setState('Team MGC')
+    .setState('Team MGC 💀')
 
-    .setName('Blood Bleeding KidneY')
-    .setDetails('Playing As Duggles_D_Xebec')
+    .setName('Bleeding KidneY 🍒')
+    .setDetails('Playing As Duggles D Xebec ♂️')
     .setParty({
         max: 9999,
         current: 6789,
