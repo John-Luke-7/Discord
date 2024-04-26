@@ -31,8 +31,7 @@ client.on('ready', async () => {
     
     .setAssetsLargeText('Team MGC')
     .addButton('Connect To KMRP 🌡️', 'https://dsc.gg/kurukkanmoola')
-    .addButton('CHROME 🦄', 'https://google.com')
-    .addButton('Dont Touch 🍑', 'https://');
+    .addButton('CHROME 🦄', 'https://google.com');
   
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" });
