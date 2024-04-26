@@ -30,8 +30,9 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://media.discordapp.net/external/eK_s96YiVIfvG14xk6TFz4ZQWuVTRi0M_I7oPZhpoto/https/emoji.discadia.com/emojis/798267a5-3e6c-4168-a56c-9fc4be65aad3.gif')
     
     .setAssetsLargeText('Team MGC')
-    .addButton('Connect To NGRP 🌡️', 'https://discord.gg/ngrp-kerala-official-776666577546117151')
-    .addButton('CHROME 🦄', 'https://google.com');
+    .addButton('Connect To KMRP 🌡️', 'https://dsc.gg/kurukkanmoola')
+    .addButton('CHROME 🦄', 'https://google.com')
+    .addButton('Dont Touch 🍑', 'https://');
   
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" });
